@@ -1,8 +1,11 @@
 #include <stdio.h>
 /**
- *A c programs that prints output without using printf
- *Always return 0
- **/
+ *Main - Start of program
+ *
+ * Description - A c program that prints output w/o use of printf
+ *
+ * Return - return  o (SUCCESS)
+**/
 
 int main(void)
 {
