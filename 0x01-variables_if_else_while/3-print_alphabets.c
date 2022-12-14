@@ -14,6 +14,11 @@ int main(void)
 	while (x <= 'Z')
 	{
 		putchar(tolower(x));
+		x++;
+	}
+
+	while (x <= 'Z')
+	{
 		putchar(toupper(x));
 		x++;
 	}
