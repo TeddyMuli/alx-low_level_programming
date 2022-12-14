@@ -11,7 +11,7 @@
 int main(void)
 {
 	int x = '0';
-	int y = 'A';
+	char y = 'A';
 
 	while (x <= '9')
 	{
