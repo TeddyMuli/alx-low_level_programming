@@ -11,7 +11,7 @@
 int main(void)
 {
 	char x = '0';
-	char y = 'a';
+	char y;
 
 	while (x <= '9')
 	{
@@ -20,7 +20,7 @@ int main(void)
 	}
 	while (y <= 'f')
 	{
-		putchar(tolower(x));
+		putchar(x);
 		x++;
 	}
 	putchar('\n');
