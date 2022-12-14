@@ -10,15 +10,15 @@
 
 int main(void)
 {
-	int x = '0';
-	char y = 'A';
+	char x = '0';
+	char y = 'a';
 
 	while (x <= '9')
 	{
 		putchar(x);
 		x++;
 	}
-	while (y <= 'F')
+	while (y <= 'f')
 	{
 		putchar(tolower(x));
 		x++;
