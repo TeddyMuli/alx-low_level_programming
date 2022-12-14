@@ -2,10 +2,10 @@
 #include <stdlib.h>
 #include <ctype.h>
 
-/*
+/**
  * main - Entry point
  * Description: Program to print alpahbet in lowercase
- * Return: Alaways 0 (success)
+ * Return: Always 0 (success)
 */
 
 int main(void)
