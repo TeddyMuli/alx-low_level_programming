@@ -11,6 +11,7 @@
 int main(void)
 {
 	int x = 'A';
+
 	while (x <= 'Z')
 	{
 		if (x != 'E' && x!= 'Q')
