@@ -5,9 +5,9 @@
 /**
  *main - entry point
  *
- * description - check status of an interger
+ *Description: check status of an interger
  *
- * return - always 0 (success)
+ *Return: Always 0 (success)
 */
 
 int main (void)
@@ -17,13 +17,13 @@ int main (void)
 	n = rand()-RAND_MAX/2;
 	if(n>0)
 	{
-		printf("%d is a positive number\n",n);
+		printf("%i is a positive number\n",n);
 	}
 	else if(n==0)
 	{
-		printf("%d is zero\n",n);
+		printf("%i is zero\n",n);
 	}
 	else
-		printf("%d is a negative number\n",n);
+		printf("%i is a negative number\n",n);
 	return (0);
 }
