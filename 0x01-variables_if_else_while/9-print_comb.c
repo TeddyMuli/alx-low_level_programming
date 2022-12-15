@@ -2,7 +2,6 @@
 #include <stdlib.h>
 #include <ctype.h>
 
-
 /**
  * main - Entry point
  * Description: Numbers
@@ -12,7 +11,7 @@
 int main(void)
 {
 	int x = '0';
-	
+
 	while (x <= '9')
 	{
 		putchar(x);
