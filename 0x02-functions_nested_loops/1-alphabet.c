@@ -6,7 +6,7 @@
  * Return: void
  */
 
-void print_alphabet(void) /*prints alphabet*/
+void print_alphabet(void) /*Description: print alphabet*/
 {
 	int x = 'a';
 
