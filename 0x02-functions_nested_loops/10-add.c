@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * add - Entry point
- * Description: adds two integers 
+ * Description: adds two integers
  * Return: int
  * @x: interger
  * @y: interger
