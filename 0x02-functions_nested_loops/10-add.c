@@ -3,6 +3,8 @@
  * add - Entry point
  * Description: adds two integers 
  * Return: int
+ * @x: interger
+ * @y: interger
  */
 int add(int x, int y)
 {
