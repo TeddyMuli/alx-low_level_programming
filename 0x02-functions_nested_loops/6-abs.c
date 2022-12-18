@@ -1,7 +1,8 @@
 #include "main.h"
 /**
- * _abs(int) - Entry point
+ * _abs - Entry point
  * Description: Absolute value
+ * @i: interger
  * Return: 0
  */
 int _abs(int i)
