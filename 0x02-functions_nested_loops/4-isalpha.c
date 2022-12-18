@@ -15,9 +15,9 @@ int _islower(int c)
 		if (c == x || c == y)
 		{
 			return (1);
+		}
 		x++;
 		y++;
-		}
-		return (0);
 	}
+	return (0);
 }
