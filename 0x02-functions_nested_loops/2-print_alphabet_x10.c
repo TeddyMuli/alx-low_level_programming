@@ -6,7 +6,7 @@
  */
 void print_alphabet_x10(void)
 {
-	int x = 'a'
+	int x = 'a';
 	int i = 1;
 
 	while (i <= 10)
