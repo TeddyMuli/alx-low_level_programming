@@ -1,12 +1,20 @@
-#include <unistd.h>
-
+#include "main.h"
 /**
  * main - Entry point
- * Description: print
- * Return: Always 0
+ * Description : Print _putchar
+ * Return: 0
 */
-
-int _putchar(char c)
+int main(void)
 {
-	return (write(1 , &c, 1));
+	char name[] = "_putchar";
+	int i = 0;
+
+	while (name[i] != '\0')
+	{
+		char c = name[i];
+
+		_putchar(c);
+		i++;
+	}
+	return (0);
 }
