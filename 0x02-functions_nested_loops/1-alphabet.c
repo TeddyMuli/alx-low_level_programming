@@ -1,9 +1,10 @@
 #include "main.h"
 /**
  * main - Entry point
- * Description: print alphabet
+ * Description: print_alphabet
  * Return: 0
 */
+
 void print_alphabet(void)
 {
 	int x = 'a';
@@ -14,4 +15,5 @@ void print_alphabet(void)
 		x++;
 	}
 	_putchar('\n');
+
 }
