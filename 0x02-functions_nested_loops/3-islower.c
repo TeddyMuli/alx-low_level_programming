@@ -5,7 +5,9 @@
  */
 int _islower(int c)
 {
-	for (int i = 'a'; i <= 'z'; i++)
+	int i = 'a';
+
+	while (i <= 'z')
 	{
 		if (c == i)
 		{
@@ -15,5 +17,6 @@ int _islower(int c)
 		{
 			return (0);
 		}
+		i++;
 	}
 }
