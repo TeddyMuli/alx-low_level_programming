@@ -7,6 +7,11 @@
  */
 int _strlen(char *s)
 {
-	int len = sizeof(*s) / sizeof(*(s+1));
-	printf("%d\n", len);
+	int length = 0;
+
+	while (s[length])
+	{
+			length++;
+	}
+	return (length);
 }
