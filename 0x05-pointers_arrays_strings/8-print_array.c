@@ -1,13 +1,14 @@
 #include "main.h"
 #include <stdio.h>
 
-/**                                                                             * print_array- Entry point                                                 
- * @a: interger                                                               
+/**
+ * print_array- Entry point                                                 
+ * @a: interger                                              
  * @n: intereger
  * Description: array
  * Return: void
  */
-void print_array(int *a, int n)                                                
+void print_array(int *a, int n)
 {
 	int i;
 
