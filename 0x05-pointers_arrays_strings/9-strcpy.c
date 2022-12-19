@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * _strycpy - copy string
+ * _strcpy- copy string
  * @dest: char
  * @src: char
  * Return: void
