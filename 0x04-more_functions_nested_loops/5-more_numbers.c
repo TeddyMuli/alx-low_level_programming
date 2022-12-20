@@ -13,7 +13,7 @@ while (x < 10)
 {
 	for (i = 0; i <= 14; i++)
 	{
-		i = j;
+		j = i;
 		if (i > 9)
 		{
 			_putchar('1');
