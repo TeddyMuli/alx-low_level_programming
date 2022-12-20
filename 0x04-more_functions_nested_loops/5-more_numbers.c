@@ -19,7 +19,7 @@ while (x < 10)
 			_putchar('1');
 			j = i % 10;
 		}
-		_putchar('0' + c);
+		_putchar('0' + j);
 	}
 	_putchar('\n');
 	x++;
