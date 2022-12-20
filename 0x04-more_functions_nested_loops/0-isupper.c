@@ -9,19 +9,9 @@
 
 int _isupper(int c)
 {
-	int x = 'a';
-	int y = 'A';
-
-	while (y <= 'Z')
+	if (c >= 65 && c <=90)
 	{
-		if (c == y)
-			return (1);
-		y++;
+		return (1);
 	}
-	while (x <= 'z')
-	{
-		if (c == x)
-			return(0);
-		x++;
-	}
+	return (0);
 }
