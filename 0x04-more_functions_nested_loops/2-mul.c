@@ -1,6 +1,4 @@
 #include "main.h"
-#include <stdio.h>
-#include <math.h>
 
 /**
  * mul- Entry point
@@ -11,5 +9,5 @@
 
 int mul(int a, int b)
 {
-	return (a * b);	
+return (a * b);	
 }
