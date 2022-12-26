@@ -3,6 +3,7 @@
 /**
  * cap_string- entry
  *Return: char
+ *@s: character
  */
 
 char *cap_string(char *s)
@@ -12,9 +13,10 @@ char *cap_string(char *s)
 
 	while (s[i] != '\0')
 	{
-		if (s[i] == ' ' || s[i] == '\t' || s[i] == '\n') {
+		if (s[i] == ' ' || s[i] == '\t' || s[i] == '\n') 
+		{
 			x = 1;
-		} else if (x && s[i] >= 'a'&& s[i] <= 'z')
+		} else if (x && s[i] >= 'a' && s[i] <= 'z')
 		{
 			s[i] = s[i] - 32;
 			x = 0;
