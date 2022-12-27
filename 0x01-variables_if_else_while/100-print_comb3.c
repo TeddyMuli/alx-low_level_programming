@@ -7,18 +7,18 @@
 
 int main(void)
 {
-	int i = 0;
+	int i = '0';
 	int j;
 
-	while(i <= 9)
+	while(i <= '9')
         {
-	for (j = 0; j <= 9; j++)
+	for (j = '0'; j <= '9'; j++)
 	{
 	if (i < j)
 	{
 	putchar(i);
 	putchar(j);
-	if (i != 8)
+	if (i != '8')
 	{
 	putchar(',');
 	putchar(' ');
