@@ -7,29 +7,27 @@
 
 int main(void)
 {
- 	    int i = 0;
-        	int j;
+	int i = 0;
+	int j;
 
-	    while(i <= 9)
-	        {
-            for (j = 0; j <= 9; j++)
-               {
-                       if (i < j)
-	          {
-										                                putchar('i');
-														putchar('j');
-		                    if (i != 8)
-		                             {
-	                                 putchar(',');
-		                        putchar(' ');
-                                 }
-												                         }
-		            }
-
-                  i++;
-          }
-	    return (0);
-
+	while(i <= 9)
+        {
+	for (j = 0; j <= 9; j++)
+	{
+	if (i < j)
+	{
+	putchar(i);
+	putchar(j);
+	if (i != 8)
+	{
+	putchar(',');
+	putchar(' ');
+	}
+	}
+	}
+	i++;
+	}
+	return (0);
 }
 
 
