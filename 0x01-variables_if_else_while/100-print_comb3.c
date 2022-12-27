@@ -10,8 +10,8 @@ int main(void)
 	int i = '0';
 	int j;
 
-	while(i <= '9')
-        {
+	while (i <= '9')
+	{
 	for (j = '0'; j <= '9'; j++)
 	{
 	if (i < j)
@@ -27,7 +27,6 @@ int main(void)
 	}
 	i++;
 	}
+	putchar('\n');
 	return (0);
 }
-
-
