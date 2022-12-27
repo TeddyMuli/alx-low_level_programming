@@ -1,10 +1,12 @@
 #include <stdio.h>
+
 /*
  * main- entry
+ * Description: function to print combo of numbers
  * Return: 0;
  */
 
-int main (void)
+int main(void)
 {
 	int i = '0';
 	int j, k;
