@@ -9,6 +9,8 @@
 
 int factorial(int n)
 {
+	int r = n;
+
 	if (n < 0)
 	{
 		return (-1);
@@ -18,5 +20,6 @@ int factorial(int n)
 	 return (1);
 	}
 	else 
-	        return pow(factorial(n), factorial(n - 1));
+		r = pow(factorial(n), factorial(n - 1));
+	return (r);
 }
