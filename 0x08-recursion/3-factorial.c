@@ -20,6 +20,6 @@ int factorial(int n)
 	 return (1);
 	}
 	else 
-		r = pow(factorial(n), factorial(n - 1));
+		r *= factorial(n - 1);
 	return (r);
 }
