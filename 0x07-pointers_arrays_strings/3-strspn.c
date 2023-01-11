@@ -30,8 +30,9 @@ while (i < len1)
 		}
 	if (!match) break;
 	else length++;
-	j++
+	j++;
 	}
 i++;
 }
+return (length);
 }
