@@ -7,7 +7,7 @@
 * _strspn - entry
 * @s: string
 * @accept: string
-* Return - int
+* Return: int
 */
 
 unsigned int _strspn(char *s, char *accept)
@@ -30,9 +30,13 @@ while (i < len1)
 			break;
 		}
 	if (!match)
+	{
 		break;
+	}
 	else
+	{
 		length++;
+	}
 	j++;
 	}
 i++;
