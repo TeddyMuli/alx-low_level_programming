@@ -1,18 +1,22 @@
 #include "main.h"
 
 /**
- * *_memset - entry point
- *@s: char
- *@b:char
- *@n :int
+ * *_memset - entry
+ * @s: char
+ * @b: char
+ * @n:int
  * return: char
  */
 
 char *_memset(char *s, char b, unsigned int n)
 {
-}[A
-[A
+	int i = 0;
 
+	while (i < n)
+	{
+		s[i] = b;
 
-
-
+		i++;
+	}
+	return (s);
+}
