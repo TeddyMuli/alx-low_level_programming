@@ -1,4 +1,3 @@
-
 #include "main.h"
 
 /**
@@ -15,7 +14,7 @@ char *_memcpy(char *dest, char *src, unsigned int n)
 
 	while (i < n)
 	{
-		dest[a] = src[a];
+		dest[i] = src[i];
 	}
 	return (dest);
 }
