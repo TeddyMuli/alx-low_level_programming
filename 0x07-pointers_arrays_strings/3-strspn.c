@@ -16,11 +16,12 @@ unsigned int length = 0;
 unsigned int len1 = strlen(s);
 unsigned int len2 = strlen(accept);
 unsigned int i = 0;
+unsigned int j = 0;
 
 while (i < len1)
 {
 	bool match = false;
-	for (int j = 0; j < len2; j++)
+	while (j < len2)
 	{
 		if (accept[j] == s[i])
 		{
@@ -29,6 +30,7 @@ while (i < len1)
 		}
 	if (!match) break;
 	else length++;
+	j++
 	}
 i++;
 }
