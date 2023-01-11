@@ -7,7 +7,7 @@
 * _strspn - entry
 * @s: string
 * @accept: string
-* return: int
+* Return - int
 */
 
 unsigned int _strspn(char *s, char *accept)
@@ -21,6 +21,7 @@ unsigned int j = 0;
 while (i < len1)
 {
 	bool match = false;
+
 	while (j < len2)
 	{
 		if (accept[j] == s[i])
@@ -28,8 +29,10 @@ while (i < len1)
 			match = true;
 			break;
 		}
-	if (!match) break;
-	else length++;
+	if (!match)
+		break;
+	else
+		length++;
 	j++;
 	}
 i++;
