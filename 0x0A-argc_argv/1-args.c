@@ -7,7 +7,7 @@
  * @argv: member
  * Return: main
  */
-int main(int argc, char *argv)
+int main(int argc, char *argv[])
 {
 	while (argc--)
 		printf ("%d\n", argc++)
