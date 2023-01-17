@@ -1,13 +1,13 @@
 #define ABS(x)
 ({
 	int x;
-       if ((x) < 0)
+       if ((y) < 0)
 	{
-	x = x * -1;
+	y = y * -1;
 	}
 	else
 	{
-	x = x * 1;
+	y = y * 1;
 	}
-	x;
+	y;
 })
