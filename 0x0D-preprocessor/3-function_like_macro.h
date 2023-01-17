@@ -1,13 +1,5 @@
-#define ABS(x)
-({
-	int x;
-       if ((y) < 0)
-	{
-	y = y * -1;
-	}
-	else
-	{
-	y = y * 1;
-	}
-	y;
-})
+#ifndef FUNCTION_LIKE_MACRO_H
+#define FUNCTION_LIKE_MACRO_H
+
+#define ABS(x) ((x) < 0 ? (-x) : (x))
+#endif
