@@ -9,7 +9,8 @@
 
 void print_name(char *name, void (*f)(char *))
 {
-	_putchar('T');
-	_putchar('e');
-	_putchar('d');
+	if (name != NULL && f != NULL)
+	{
+		f(name);
+	}
 }
