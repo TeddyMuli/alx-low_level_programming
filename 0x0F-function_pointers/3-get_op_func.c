@@ -6,7 +6,7 @@
  * 
  * get_op_func - entry point
  * @s: ...
- * woo
+ * 
  * Return: int
  */
 
