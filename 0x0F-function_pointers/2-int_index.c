@@ -5,6 +5,7 @@
  * @array: the array
  * @size: number of elements
  * @int: value to be compared
+ * @cmp: function to compare
  * Return: int
  */
 
@@ -16,7 +17,7 @@ int int_index(int *array, int size, int (*cmp)(int))
 	{
 		if (array != NULL && cmp != NULL)
 		{
-			while(i < size)
+			while (i < size)
 			{
 				if (cmp(array[i]))
 					return (i);
