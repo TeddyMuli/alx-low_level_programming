@@ -16,6 +16,7 @@ typedef struct listint_s
 } listint_t;
 
 size_t print_listint(const listint_t *h) {
+    size_t node = 0;
     listint_t *temporary = h;
 
     while (temporary != NULL)
@@ -23,7 +24,7 @@ size_t print_listint(const listint_t *h) {
         /* code */
         printf("d - ", temporary->n);
         temporary = temporary->next;
-
+        node++;
     }
-    return (listint_t.n);
+    return (node);
 }
