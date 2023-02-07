@@ -11,10 +11,12 @@
 
 unsigned int binary_to_uint(const char *b) {
     unsigned int x = *b;
+    unsigned int final = 0;
     unsigned int size = sizeof(*b);
     for (int n = 0; n < size; n++ )
     {
        x = x * pow(2,size);
+       final = final + x;
     }
-    return (x);
+    return (final);
 }
