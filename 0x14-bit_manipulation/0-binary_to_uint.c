@@ -13,13 +13,7 @@ unsigned int binary_to_uint(const char *b) {
     unsigned int dec = 0, i = 0, rem;
     unsigned int binary = atoi(b);
     unsigned int length = sizeof(binary);
-    for (int n = 0; n < binary; n++)
-    {
-      if ((b + n) != "0" || (b + n) != "1")
-            printf("Enter valid binary number\n");
-        
-        else
-        {
+
             while (binary != 0)
             {
              rem = binary % 10;
@@ -27,16 +21,15 @@ unsigned int binary_to_uint(const char *b) {
              dec += rem * pow(2,i);
              i++;
             }
-        }
-      //  return (dec);
-    }
+
 }
+
 
 int main(void)
 {
     unsigned int n;
 
-    n = binary_to_uint("1");
+    n = binary_to_uint("1111");
     printf("%u\n", n);
    /* n = binary_to_uint("101");
     printf("%u\n", n);
