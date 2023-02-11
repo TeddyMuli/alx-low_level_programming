@@ -9,16 +9,20 @@
  * Return: int
 */
 
-unsigned int binary_to_uint(const char *b) {
-    unsigned int dec = 0, i = 0, rem;
-    unsigned int binary = atoi(b);
+unsigned int binary_to_uint(const char *b)
+{
+	unsigned int num = 0;
+	int len = 0;
 
-            while (binary != 0)
-            {
-             rem = binary % 10;
-             binary = binary / 10;
-             dec += rem * pow(2,i);
-             i++;
-            }
-            return (dec);
+	if (b[len] == '\0')
+		return (0);
+
+	while ((b[len] == '0') || (b[len] == '1'))
+	{
+		num <<= 1;
+		num += b[len] - '0';
+		len++;
+	}
+
+	return (num);
 }
