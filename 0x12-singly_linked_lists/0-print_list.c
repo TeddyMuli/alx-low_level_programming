@@ -13,6 +13,9 @@ size_t print_list(const list_t *h) {
      while (h != NULL)
      {
         /* code */
+        if (h->str != NULL)
+            printf("[0]");
+            
         printf("%s",h->str);
         h = h->next;
         length++;
