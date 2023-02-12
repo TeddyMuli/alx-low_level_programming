@@ -7,6 +7,8 @@
  * @h: member
  * return: int
  */
+size_t list_len(const list_t *h);
+
 size_t list_len(const list_t *h) {
     size_t length_of_list = 0;
 
