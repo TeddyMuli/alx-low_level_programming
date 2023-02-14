@@ -7,7 +7,8 @@
  * @letters: member
  * return: size_t
 */
-ssize_t read_textfile(const char *filename, size_t letters) {
+ssize_t read_textfile(const char *filename, size_t letters) 
+{
     ssize_t o, r, w;
     char *buffer;
     
