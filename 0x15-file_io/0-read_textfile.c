@@ -3,6 +3,7 @@
 
 /*
  * read_textfile - entry point
+ * Description: function that reads a file
  * @filename: member
  * @letters: member
  * return: size_t
