@@ -1,9 +1,5 @@
 #include "main.h"
 #include <stdlib.h>
-#include <sys/types.h>
-#include <sys/stat.h>
-#include <fcntl.h>
-
 
 /*
  * read_textfile - entry point
