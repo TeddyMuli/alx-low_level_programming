@@ -1,13 +1,6 @@
 #include "main.h"
-
-/**
- * largest_number - returns the largest of 3 numbers
- * @a: ineteger
- * @b: integer
- * @c: integer
- * Return: largest number
- */
-
+#include <stdio.h>
+#include <stddef.h>
 int largest_number(int a, int b, int c)
 {
 	int largest = a;
@@ -22,4 +15,11 @@ int largest_number(int a, int b, int c)
 	}
 
 	return (largest);
+}
+
+int main() {
+   int a = 3, b = 4, c = 6;
+   int d = largest_number(a,b,c);
+    printf("the largest number is %d\n", d);
+    return 0;
 }
