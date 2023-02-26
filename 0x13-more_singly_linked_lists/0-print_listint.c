@@ -5,14 +5,13 @@
 size_t print_listint(const listint_t *h) {
     size_t node = 0;
     listint_t *temporary;
-    int nn = temporary->n;
 
     if (!h)
     {
     }
     while (temporary != NULL)
     {
-        printf("d - ", nn);
+        printf("%d - ", temporary->n);
         temporary = temporary->next;
         node++;
     }
