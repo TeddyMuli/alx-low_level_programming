@@ -2,6 +2,8 @@
 #define __HASH__
 #include <stdlib.h>
 #include <stdarg.h>
+#include <string.h>
+#include <stdio.h>
 /**
 * struct hash_node_s - Node of a hash table
 *
