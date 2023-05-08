@@ -1,2 +1,2 @@
 #!/usr/bin/bash
-git add . ; git commit -m"0x1A-hash_tables" ; git push
+dos2unix * ; git add . ; git commit -m"0x1A-hash_tables" ; git push
