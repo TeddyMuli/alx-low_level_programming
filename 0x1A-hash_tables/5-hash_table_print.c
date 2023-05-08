@@ -1,5 +1,5 @@
-#include "./hash_tables.h"
-
+#include "hash_tables.h"
+#include <string.h>
 /**
  * hash_table_print - Prints a hash table.
  * @ht: A pointer to the hash table to print.
