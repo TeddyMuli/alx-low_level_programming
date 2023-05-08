@@ -1,1 +1,2 @@
+#!/usr/bin/bash
 git add . ; git commit -m"0x1A-hash_tables" ; git push
