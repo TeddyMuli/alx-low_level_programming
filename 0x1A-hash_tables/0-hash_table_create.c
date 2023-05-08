@@ -3,11 +3,17 @@
 
 hash_table_t *hash_table_create(unsigned long int size)
 {
-    hash_table_t *hash_table = (hash_table_t *)malloc(sizeof(hash_table_t));
+    unsigned long int i;
+    hash_table_t *hash_table = malloc(sizeof(hash_table_t));
+    if (hash_table == NULL)
+        return NULL;
 
-
-    hash_table->array = (unsigned long int *)malloc(size * sizeof(unsigned long int));
-    
+    hash_table->array = malloc(size * sizeof(unsigned long int));
     hash_table->size = size;
+    if (hash_table->array == NULL)
+        return NULL;
+    for (i = 0; i < size; i++)
+        hash_table->array[i] = NULL;
+
     return hash_table;
 }
